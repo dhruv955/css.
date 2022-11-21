@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+}
+nav{
+    background-color:aqua ;
+}
+.flex-container{
+    display: flex;
+}
+.left-item{
+    flex: 20%;
+    background-color: blueviolet;
+
+}
+.right-item{
+    flex: 80%;
+    background-color: greenyellow;
+    text-align: right;
+
+
+}
+.bottom-item{
+    flex: 100%;
+    background-color: yellow;
+    
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display: inline;
+    margin-left: 40px
+}
+a{
+    color: blue;
+    font-size:medium ;
+    text-decoration: underline;
+}
+a :hover{
+    background-color: antiquewhite;
+    color: blue;
+}
